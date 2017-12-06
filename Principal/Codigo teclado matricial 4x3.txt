@@ -1,0 +1,201 @@
+
+
+
+
+void scan1(){            
+
+   int aux=100;          
+   while(aux != 0)      
+   {
+      output_low(L1);    
+      output_high(L2);
+      output_high(L3);
+      output_high(L4);
+
+      if(input(C1) == 0)     
+      {
+         i = 3;
+         j ++;
+         delay_ms(20);   
+                        
+      }
+
+      if(input(C2) == 0)     
+      {
+         i = 2;
+         j ++;
+         delay_ms(20);   
+                        
+      }
+
+      if(input(C3) == 0)    
+      {
+         i = 1;
+         j ++;
+         delay_ms(20);   
+                       
+      }
+
+      aux--;            
+      delay_us(aux);     
+   }
+
+      output_high(L1);
+      output_high(L2);
+      output_high(L3);
+      output_high(L4);
+
+   return;             
+}                        
+
+
+
+
+
+void scan2(){           
+
+   int aux=100;           
+   while(aux != 0)       
+   {
+      output_high(L1);   
+      output_low(L2);
+      output_high(L3);
+      output_high(L4);
+
+      if(input(C1) == 0)     
+      {
+         i = 6;
+         j ++;
+         delay_ms(20);   
+                         
+      }
+
+      if(input(C2) == 0)     
+      {
+         i = 5;
+         j ++;
+         delay_ms(20);   
+                         
+      }
+
+      if(input(C3) == 0)     
+      {
+         i = 4;
+         j ++;
+         delay_ms(20);   
+                         
+      }
+
+      aux--;             
+      delay_us(aux);     
+   }
+
+      output_high(L1);
+      output_high(L2);
+      output_high(L3);
+      output_high(L4);
+
+   return;               
+}                        
+
+
+
+
+
+
+void scan3(){            
+
+   int aux=100;           
+   while(aux != 0)       
+   {
+      output_high(L1);    
+      output_high(L2);
+      output_low(L3);
+      output_high(L4);
+
+      if(input(C1) == 0)     
+      {
+         i = 9;
+         j ++;
+         delay_ms(20);   
+                         
+      }
+
+      if(input(C2) == 0)     
+      {
+         i = 8;
+         j ++;
+         delay_ms(20);   
+                         
+      }
+
+      if(input(C3) == 0)     
+      {
+         i = 7;
+         j ++;
+         delay_ms(20);   
+                         
+      }
+
+      aux--;            
+      delay_us(aux);     
+   }
+
+      output_high(L1);
+      output_high(L2);
+      output_high(L3);
+      output_high(L4);
+
+   return;              
+}                        
+
+
+
+
+
+
+void scan4(){            
+
+   int aux=100;           
+   while(aux != 0)       
+   {
+      output_high(L1);    
+      output_high(L2);
+      output_high(L3);
+      output_low(L4);
+
+      if(input(C1) == 0)     
+      {
+         i = 12;
+         j = 10;
+         delay_ms(20);   
+                         
+      }
+
+      if(input(C2) == 0)     
+      {
+         i = 11;
+         j ++;
+         delay_ms(20);   
+                         
+      }
+
+      if(input(C3) == 0)     
+      {
+         i = 10;
+         j = 12;
+         delay_ms(20);   
+                        
+      }
+
+      aux--;             
+      delay_us(aux);     
+   }
+
+      output_high(L1);
+      output_high(L2);
+      output_high(L3);
+      output_high(L4);
+
+   return;               
+}                        

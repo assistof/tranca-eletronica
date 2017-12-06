@@ -1,0 +1,127 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @SCRATCH
+005     k
+006     i
+007     j
+008     MAIN.s1
+009     MAIN.s2
+00A     MAIN.s3
+00B     MAIN.s4
+00C     MAIN.s5
+00D     MAIN.s6
+00E     MAIN.s7
+00F     lcd_inicializa.conta
+00F     scan2.aux
+00F     scan3.aux
+00F     scan1.aux
+00F     scan4.aux
+00F     @PRINTF_D_73.P1
+00F     ABRIR.@SCRATCH1
+00F     MAIN.@SCRATCH1
+010     @delay_ms2.P1
+010     @delay_us2.P2
+010     @PRINTF_D_73.P3
+010     lcd_inicializa.@SCRATCH1
+010     scan1.@SCRATCH1
+010     scan2.@SCRATCH1
+010     scan3.@SCRATCH1
+010     scan4.@SCRATCH1
+011     lcd_inicializa.@SCRATCH2
+011     @PRINTF_D_73.@SCRATCH1
+012     @PRINTF_D_73.@SCRATCH2
+013     @PRINTF_D_73.@SCRATCH3
+014     @PRINTF_D_73.@SCRATCH4
+015     @DIV88.P1
+015     lcd_escreve.c
+016     @DIV88.P1
+016     lcd_posicao.y
+016     @delay_ms1.P1
+017     lcd_posicao.x
+017     @DIV88.@SCRATCH1
+018     lcd_posicao.endereco
+019     lcd_posicao.@SCRATCH1
+01A     lcd_envia_byte.endereco
+01B     lcd_envia_byte.dado
+01C     lcd_envia_byte.@SCRATCH1
+01D     lcd_envia_nibble.dado
+F81     PORTB
+F83     PORTD
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB-FBC CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE-FBF CCP_1
+FBF     CCP_1_HIGH
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+016A  @delay_ms1
+0004  INI_LCD
+0192  lcd_envia_nibble
+01CC  lcd_envia_byte
+0202  lcd_posicao
+0224  lcd_escreve
+0284  lcd_inicializa
+0018  @const77
+0320  @delay_ms2
+0348  @delay_us2
+036C  scan1
+03D6  scan2
+0440  scan3
+04AA  scan4
+050A  BIP
+060A  ABRIR
+062C  MAIN
+003A  @const110
+0054  @const111
+0076  @const112
+009A  @const114
+051A  @DIV88
+0542  @PRINTF_D_73
+00B6  @const122
+00D2  @const146
+00F0  @const147
+010A  @const148
+012A  @const150
+014A  @const151
+062C  @cinit
+
+Project Directory:
+    E:\Documentos\Projeto Eletronica\Principal\
+
+Project Files:
+    Untitled.c
+    C:\Program Files (x86)\PICC\devices\18f4550.h
+    lcd.h
+
+Units:
+    Untitled.c (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      Untitled.err
+    Ext Symbols: Untitled.esym
+    INHX32:      Untitled.hex
+    Symbols:     Untitled.sym
+    List:        Untitled.lst
+    Debug/COFF:  Untitled.cof
+    Project:     Untitled.PJT
+    Call Tree:   Untitled.tre
+    Statistics:  Untitled.sta
